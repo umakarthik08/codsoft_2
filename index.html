@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://bcassetcdn.com/public/blog/wp-content/uploads/2019/07/18094633/b-consulting.png" alt="Company Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cta">
+                <button class="cta-button" onclick="rct()" id="cta-button">Book a interview</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container1">
+                <img src="https://www.levenbert.com/wp-content/uploads/2021/04/business-consultants.jpg" alt="Consultants Image" class="consultants-image">
+                <div>
+                    <h1>Success starts with hardworking consultants</h1>
+                <p>Our team of dedicated consultants is committed to delivering exceptional results for your business. With expertise in various industries and a deep understanding of market dynamics, we provide strategic insights and practical solutions that drive growth and innovation.</p>
+                </div>
+            </div>
+            
+            
+            
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p>Our consulting services are designed to help your business thrive in today’s competitive landscape. Whether you need strategic guidance or operational improvements, our team of experts is here to support you.</p>
+                <div class="services-list">
+                    <div class="service-item">
+                        <img src="https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png" alt="Services">
+                        <h3>Business Strategy</h3>
+                        <p>Developing long-term strategies that align with your vision and market trends.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png" alt="Services">
+                        <h3>Operational Efficiency</h3>
+                        <p>Identifying inefficiencies and implementing solutions to streamline processes.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png" alt="Services">
+                        <h3>Market Analysis</h3>
+                        <p>Conducting comprehensive market research to inform your business decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="process" id="process">
+            <div class="container">
+                <h2>Our Process</h2>
+                <p>We follow a structured approach to ensure success in every project:</p>
+                <ol>
+                    <li><strong>Discovery Phase:</strong> We begin by thoroughly understanding your business goals and challenges through detailed consultations and analysis.</li>
+                    <li><strong>Strategy Development:</strong> Based on our findings, we develop a tailored strategy that aligns with your objectives and market opportunities.</li>
+                    <li><strong>Implementation:</strong> Our team executes the strategy with precision, leveraging industry best practices and innovative solutions.</li>
+                    <li><strong>Monitoring and Optimization:</strong> We continuously monitor the outcomes, making adjustments as needed to maximize efficiency and results.</li>
+                    <li><strong>Review and Reporting:</strong> Finally, we provide comprehensive reports and insights, ensuring transparency and accountability throughout the process.</li>
+                </ol>
+            </div>
+        </section>
+               
+        <section class="contact" id = "contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+        
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
